@@ -3,7 +3,7 @@
 
 ### ** Conceptos importantes para entender el asincronismo:✍🏾** 
 
--  🧵  Thread: Thread para Javascript permite realizar programación multihilos en este entorno. En realidad, simula la creación y ejecución de hilos, pero para el desarrollador es lo mismo. Ésto simplifica muchísimo la creación de aplicaciones Javascript.
+-  🧵  **Thread:** Thread para Javascript permite realizar programación multihilos en este entorno. En realidad, simula la creación y ejecución de hilos, pero para el desarrollador es lo mismo. Ésto simplifica muchísimo la creación de aplicaciones Javascript.
 
 *  🚫 **Bloqueante:** Una llamada u operación bloqueante no devuelve el control a la aplicación hasta que se ha completado. Por tanto el thread queda bloqueado en estado de espera.
 * 🚿 **No bloqueante: **Una tarea no bloqueante se devuelve inmediatamente con independencia del resultado. Si se completó, devuelve los datos. Si no, un error.
@@ -16,7 +16,7 @@
 *  🎮 **Concurrencia:** La concurrencia es la capacidad de un algoritmo o programa para ejecutar más de una tarea a la vez. El concepto es similar al procesamiento paralelo, pero con la posibilidad de que muchos trabajos independientes hagan diferentes cosas a la vez en lugar de ejecutar el mismo trabajo.
 • 🌀 **Eventloop o Loop de eventos:** El bucle de eventos es un patrón de diseño que espera y distribuye eventos o mensajes en un programa.
 .
-###  Formas de manejar la asincronía en JavaScript:  📝 Formas de manejar la asincronía en JavaScript: 
+###  Formas de manejar la asincronía en JavaScript:
 
 -  📩 **Callbacks:** Una función que se pasa como argumento de otra función y que será invocada.
 
@@ -30,6 +30,7 @@
 .
 - ⏲️ Un ejemplo fácil de asincronismo vs sincronismo es invitar a unos amigos a una fiesta y ofrecer una parrillada. Primero decides colocar la carne y verduras a la parrilla y luego repartir bebidas y algo para picar (snacks). Si fuera una persona síncrona (Blocking) tendrías que esperar a que la comida de la parrilla esté cocinada y luego atender a los invitados. Pero si fuera una persona asíncrona (Non Blocking) luego de poner la carne al carbón, sacas las bebidas frías de la nevera y compartes con los invitados mientras se cocina la car
 ne. La acción de que la comida en la parrillada esté lista sería un callback que está esperando que finalice el proceso para ejecutarse. Pero otros procesos (como compartir la velada con bebidas y algo de picar) ya podrían irse realizando.
+
 ## ⚙️ **𝗖𝗹𝗮𝘀𝗲 #𝟱: 𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻 𝟱/𝟮𝟭** ⚙️
 
 ###  Conceptos fundamentales antes de crear el proyecto:🖋️
