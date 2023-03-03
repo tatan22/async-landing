@@ -122,7 +122,7 @@ Transpilar: Transpilar es generar a partir de código en un lenguaje código en 
     
     console.log(calc(2, 2, sum)); //sum debe estar sin () y sin argumentos
     //
-```
+```js
    - 
     - Luego se selecciona el código y al dar click derecho, seleccionar Run Code (debe estar instalado la extensión Code Runner).
 
@@ -135,7 +135,7 @@ Transpilar: Transpilar es generar a partir de código en un lenguaje código en 
       	console.log('Hola JavaScript');
       }, 2000) 
       //la función es anónima por eso no tiene nombre
-```
+```js
 
   - - En El Tercer Ejemplo Tenemos Un Settimeout Con Una FuncióN Que Se Le Pasa Por Argumento:
 
