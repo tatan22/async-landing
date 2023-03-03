@@ -111,8 +111,7 @@ Transpilar: Transpilar es generar a partir de código en un lenguaje código en 
 - Crear dentro de la carpeta callback el archivo index.js.
 - Dentro de index.js se coloca la estructura de los que será un callback:
 
-
-
+```
     function sum(num1, num2){
     return num1 + num2;
     }
@@ -123,7 +122,7 @@ Transpilar: Transpilar es generar a partir de código en un lenguaje código en 
     
     console.log(calc(2, 2, sum)); //sum debe estar sin () y sin argumentos
     //
-
+```
    - 
     - Luego se selecciona el código y al dar click derecho, seleccionar Run Code (debe estar instalado la extensión Code Runner).
 
@@ -131,12 +130,12 @@ Transpilar: Transpilar es generar a partir de código en un lenguaje código en 
 
     - Para el segundo ejemplo, se tiene un setTimeout que funciona como un callback, en el código está configurado para imprimir el mensaje 2 segundos después de ejecutar el código con Run Code:
          
-
+```
      setTimeout(function (){
       	console.log('Hola JavaScript');
       }, 2000) 
       //la función es anónima por eso no tiene nombre
-
+```
 
   - - En El Tercer Ejemplo Tenemos Un Settimeout Con Una FuncióN Que Se Le Pasa Por Argumento:
 
